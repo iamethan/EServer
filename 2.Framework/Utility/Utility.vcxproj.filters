@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="GameUtil.cpp" />
+    <ClCompile Include="Minidump.cpp" />
+    <ClCompile Include="GTimer.cpp" />
+    <ClCompile Include="GLog.cpp" />
+    <ClCompile Include="File.cpp" />
+    <ClCompile Include="FileAPI.cpp" />
+    <ClCompile Include="TimeManager.cpp" />
+    <ClCompile Include="RingBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameUtil.h" />
+    <ClInclude Include="Minidump.h" />
+    <ClInclude Include="ObjPool.h" />
+    <ClInclude Include="GTimer.h" />
+    <ClInclude Include="IDGenerator.h" />
+    <ClInclude Include="GLog.h" />
+    <ClInclude Include="File.h" />
+    <ClInclude Include="FileAPI.h" />
+    <ClInclude Include="TimeManager.h" />
+    <ClInclude Include="RingBuffer.h" />
+    <ClInclude Include="Type.h" />
+  </ItemGroup>
+</Project>
